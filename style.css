@@ -1,0 +1,79 @@
+body{
+    background-image: url("back_grnd.jpg");
+   background-size: cover ;
+   color: black;
+}
+
+
+.row{
+    width: 95%;
+    height: 20px;
+    /* background-color: color-mix(in xyz, color percentage, color percentage); */
+    /* display; inline-block; */
+    color: black;
+}
+.col1,.col2{
+    width: 45%;
+    /* background-color: azure; */
+    display: inline-block;
+    color: black;
+}
+.col1{
+    font-size: 20px;
+    color: black;
+}
+.col2{
+    text-align: end;
+    color: rgb(19, 18, 18);
+}
+li{
+    display: inline-block;
+}
+.con{
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 20px,30px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color:rgb(11, 11, 11);
+    font-size: 25px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    color: rgb(23, 23, 22);
+    background-color:rgb(49, 97, 104); 
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px rgb(1, 2, 2);
+    height: 450px;
+    padding-top: 10px;
+    background: transparent;
+}
+/* h1{ 
+    text-align: center;
+ } */
+
+
+.tf{
+    display: flex;
+    justify-content: center;
+    color: rgb(23, 23, 22);
+    background: transparent;
+    padding: 7px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+#sss{
+    background: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(24, 24, 23);
+}
